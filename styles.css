@@ -1,0 +1,365 @@
+body {
+    margin:0;
+    background-image: url("Imgs/Desayunador (4).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Márgenes textos */
+.arts {
+
+    color: black;
+    margin: 30px;
+}
+
+
+
+/* Font */
+
+.rounded {
+    color: black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+.rounded__titles {
+    color: black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+
+
+/* Navigation bar */
+
+.bar {
+    background-color: #1b140b;
+    color: rgb(231, 231, 231);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0;
+    padding: 2px 2%;
+    
+}
+
+.bar h1 {
+    font-size: 25px;
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: 1px;
+}
+
+.bartext {
+    
+    display: inline-block;
+    padding: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: 1px;
+}
+
+.bartext a {
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    padding: 20px;
+    font-size: 15px;
+
+}
+
+.bartext a:hover {
+    border-radius: 25px;
+    background-color: #332616
+    
+    
+}
+
+.bartext a:active {
+    border: solid;
+    border-color: rgb(231, 231, 231);
+    border-radius: 25px;
+    border-width: 2px;
+}
+
+
+
+/* Text abajo de Navigation Bar */
+
+
+.text {
+
+    background-color: #332616;
+    color: rgb(231, 231, 231);
+    display:inline-block;
+    margin-left: 420px;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 50px;
+    
+}
+
+.text p{
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*h1 menú de artículos y recetas*/
+
+.artsrec__title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    color: #1b140b
+}
+
+
+/* Asides */
+
+.as1 {
+
+    float: right;
+}
+
+.img {
+
+    border: solid;
+    border-color: #332616;
+    border-radius: 25px;
+}
+
+
+
+
+/* Apartado de recetas y artículos */
+
+.tarjs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    border-radius: 25px;
+    margin: 0px 30px;
+}
+
+.card_home {
+    border-radius: 25px;
+    margin: 0px 30px;
+    width: 18rem;
+    height: 20rem;
+}
+
+.card-img-top {
+    
+    
+    border: solid;
+    border-color: #332616;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+   
+    height: 150px;
+    
+}
+
+.card-body {
+    
+   
+    background-color:#332616;
+    color: rgb(231, 231, 231);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  
+
+}
+
+.btn {
+    background-color: #1b140b;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+.cubs__dos-img {
+    
+    display: flex;
+    border: solid;
+    width: 250px;
+    height: 150px;
+    border-color: #332616;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0px 30px;
+    
+}
+
+.cubs__dos-cubdos {
+    
+    width: 250px;
+    height: 50px;
+    background-color:#332616;
+    color: rgb(231, 231, 231);
+    margin: 0px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  
+
+}
+
+.cubs__dos-cubdos p {
+
+    margin-top: 0;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+
+.cubs__dos-cubdos p a {
+    text-decoration: none;
+    color: rgb(231, 231, 231); 
+
+}
+
+
+
+
+
+.cubs__tres-img {
+    
+    display: flex;
+    border: solid;
+    width: 250px;
+    height: 150px;
+    border-color: #332616;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0px 30px;
+    
+}
+
+.cubs__tres-cubtres {
+    
+    width: 250px;
+    height: 50px;
+    background-color:#332616;
+    color: rgb(231, 231, 231);
+    margin: 0px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  
+
+}
+
+.cubs__tres-cubtres p {
+
+    margin-top: 0;
+    font-size: 15px;
+    text-align: center;
+
+    
+}
+
+
+.cubs__tres-cubtres p a {
+    text-decoration: none;
+    color: rgb(231, 231, 231); 
+
+}
+
+
+
+
+.cubs__cuatro-img {
+    
+    display: flex;
+    border: solid;
+    width: 250px;
+    height: 150px;
+    border-color: #332616;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0px 30px;
+    
+}
+
+.cubs__cuatro-cubcuatro {
+    
+    width: 250px;
+    height: 50px;
+    background-color:#332616;
+    color: rgb(231, 231, 231);
+    margin: 0px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  
+
+}
+
+.cubs__cuatro-cubcuatro p {
+
+    margin-top: 0;
+    font-size: 15px;
+    text-align: center;
+
+    
+}
+
+
+.cubs__cuatro-cubcuatro p a {
+    text-decoration: none;
+    color: rgb(231, 231, 231); 
+
+}
+
+
+
+
+
+/* Footer */
+
+
+.foot{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1b140b;
+    color: rgb(231, 231, 231);
+    margin-top: 100px;
+    height: 50px;
+    padding: 1%;
+    
+
+}
+
+
+footer h6 {
+
+    margin:0;
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+
+}
+
+
